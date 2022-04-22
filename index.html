@@ -6,14 +6,51 @@
 	<style>
 		body {
 			/* https://www.w3schools.com/cssref/css3_pr_background-size.asp */
+			/* https://stackoverflow.com/a/2662157, couldn't get it work (tried display: and background-position:). it's body maybe that's why. I can try to create a div element and put everything to inside, and then set that div element's background. But we're in html part yet. So I'll leave like this. 
+			 Some simple things could be even look better at the moment. anyway...*/ 
+			/* background: linear-gradient ( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('./links-images-txt-etc/images/pexels-pixabay-326279.jpg'); */
 			background-image: url('./links-images-txt-etc/images/pexels-pixabay-326279.jpg');
 			background-repeat: no-repeat;
 			/*  https://www.w3schools.com/cssref/css_units.asp */
 			background-size: 145vw auto;
 		}
+		h1 {
+			font-size: 6.5vw;
+			color: #f2b94f;
+		}
+		/* https://www.w3schools.com/cssref/pr_font_weight.asp */
+		a {
+			color: #F9E5BF;
+			font-weight: bold;
+			font-size; 2.8vw;
+		}
+		p {
+			color: #F9E5BF;
+			font-weight: bold;
+			font-size: 2.8vw;
+		}
+		ul > li > a {
+			font-size: 2.8vw;
+		}
 	</style>
 </head>
+<!-- Some links:
+	https://www.google.com/search?q=other+ways+to+say+ladies+and+gentlemen&ei=RnpdYrvsLuGVxc8Pqbu1mA8&ved=0ahUKEwi7p6nY7Z33AhXhSvEDHaldDfMQ4dUDCA0&uact=5&oq=other+ways+to+say+ladies+and+gentlemen&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsANKBAhBGABKBAhGGABQAFgAYOgEaAFwAXgAgAEAiAEAkgEAmAEAyAEIwAEB&sclient=gws-wiz
+	https://coolors.co/palette/060808-43515a-ffffff-c44c2f-f2b94f-f9e5bf-a4dded-2887c8
+	https://www.w3schools.com/cssref/css_selectors.asp
+
+-->
 <body background-image>
-	<h1>Welcome to the Jurrasic Food</h1>
+	<p style="color: #ffcccc; font-size:1.9vw;"> Mrs., Ms. and Mr., Ladies and Gentlemen, Distinguished guests, Madam and Sir</p>
+	<h1><strong> Welcome to the Jurrasic Food</strong></h1>
+	<p style="font-size: 1.7vw; color: #ffcccc;">da da da daaaaaa! </p>
+	<br>
+	<br>
+	<p> You can find some delicious recipes as:</p>
+	<ul>
+		<li> <a href="./recipes/judys-strawberry-pretzel-salad.html">Judy's Strawberry Pretzel Salad</a> </li>
+		<li> <a></a></li>
+		<li> <a></a></li>
+	</ul>
 </body>
 </html>
